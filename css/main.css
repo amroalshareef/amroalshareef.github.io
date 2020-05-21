@@ -870,7 +870,11 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 
 }
-
+.portfolio-area p{
+  font-size: 18px;
+  font-weight: 350;
+  line-height: 1.25;
+}
 
 .portfolio-area .filters-content .item .p-inner .cat {
   font-size: 1.05vw;
