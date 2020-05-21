@@ -136,10 +136,10 @@ $(document).ready(function(){
 
   if(document.getElementById("portfolio")){
         var $grid = $(".grid").isotope({
-          itemSelector: ".research",
+          itemSelector: ".all",
           percentPosition: true,
           masonry: {
-            columnWidth: ".research"
+            columnWidth: ".all"
           }
         })
   };
