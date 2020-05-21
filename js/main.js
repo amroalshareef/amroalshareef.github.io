@@ -129,7 +129,7 @@ $(document).ready(function(){
     
     var data = $(this).attr('data-filter');
     $grid.isotope({
-      filter: data
+      filter: '.dummmy'
     })
   });
 

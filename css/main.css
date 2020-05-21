@@ -830,22 +830,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio-area .filters-content .show {
   opacity: 1;
-  visibility: visible;
   transition: all 350ms;
 }
-
-.portfolio-area .filters {
-    overflow: hidden;
-}
-
-.portfolio-area .filters:nth-child(n+1) {
-    display: none;
-}
-
-.portfolio-area .filters:first-child { 
-    display: block;
-}
-
 
 .portfolio-area .filters-content .hide {
   opacity: 0;
